@@ -1,4 +1,6 @@
 \documentclass[11pt]{article} % use larger type; default would be 10pt
+\usepackage{array}
+\usepackage{hyperref}
 
 \title{P2 -- ML Applications in Digital Cultural Heritage (12009 \& 12017) -- Examination Summary and Grading}
 \author{Dr. Anastasia Eleftheriadou \& Dr. Evan Eames}
@@ -8,12 +10,14 @@
 \begin{document}
 \maketitle
 
-Students enrolled in both the Seminar and Hands-On (\"Ubung) component of the P2 module are examined together. The goal is for students to attempt to showcase an archaeological / cultural heritage case study by making a short review of the existing literature and doing a hands-on assignment working with messy real-world datasets by employing data cleaning and ML ideation. \\
+Students enrolled in both the Seminar and Hands-On (\"Ubung) component of the P2 module are examined together with a common assignment. The goal is for students to attempt to showcase an archaeological / cultural heritage case study by making a short review of the existing literature and doing a hands-on assignment working with messy real-world datasets by employing data cleaning and ML ideation.\\
 
-The procedure is as follows.
+\textbf{Be sure to read the tips on the final page of this document!}
+
+\section*{Examination Procedure}
 
 \begin{enumerate}
-\item Students choose a dataset from a list (https://tinyurl.com/5ddxezjk). There is one dataset per student -- that is, no two students can work on the same dataset.
+\item Students choose a dataset from a list \href{https://tinyurl.com/5ddxezjk}{https://tinyurl.com/5ddxezjk}. There is one dataset per student -- that is, no two students can work on the same dataset. For your convenience, when you've put your name down for a dataset (at the previous link) you can find the actual data files here: \href{https://tinyurl.com/mtkxj67v}{https://tinyurl.com/mtkxj67v}
 
 \item Students conduct a literature review around the dataset. The goal here is to get ideas for how international research teams have used similar data for interesting research purposes (note: it is not necessary that the articles actually employ ML techniques).
 
@@ -34,8 +38,36 @@ The procedure is as follows.
 \item 10-15 minutes of overview of what has been done for the project (powerpoints can be included, but are not required).
 \item 10-15 minutes of questions
 \end{enumerate}
-\item Additionally, in the final classes each student will do a quick 5 minute lightning summary of their work
+\item Additionally, in the final classes each student will do a quick 5 minute lightning summary of their work (not graded).
 
 \end{enumerate}
+
+\newpage
+\section*{Grading}
+
+\begin{center}
+\begin{tabular}{ | m{2cm} | m{2cm} | m{2cm} | m{2cm} | m{2cm} | m{2cm} |} 
+\hline
+ & \small 1.0 & 2.0 & 3.0 & 4.0 & 5.0\\
+\hline
+{\bf Paper (20\%)} & \small Exceptionally well researched, written, and relevant to the dataset &  \small  Well researched, written, and relevant to the dataset & \small Decently researched, written, and relevant to the dataset & \small  Poorly researched, written, and relevant to the dataset & No effort has been made\\
+\hline
+{\bf Notebook (20\%)} & \small Beautifully presented with clean markdown, figures as needed, and fully commented code &  \small Well presented & \small  Decently presented, but some difficultly in understanding &  \small Poorly presented and messy. Difficult to understand &  \small No effort has been made: It looks like sh*t \\
+\hline
+{\bf Mini-Defense (60\%)} & \small Interesting and engaging presentation demonstrating the topic has been thoroughly analyzed. Questions are answered thoroughly with in-depth reference to course material & Good presentation, with answers sometimes reflecting an understanding of course material & Decent presentation, with satisfactory answers to questions & Poor presentation, showing a lack of understanding of the dataset and topic, as well as difficulty answering questiosn & Complete lack of understanding.\\
+\hline
+\end{tabular}
+\end{center}
+
+\newpage
+\section*{Tips}
+\begin{itemize}
+\item Be sure to have plenty of citations in your paper. Be sure it follows the format mentioned in the above section.
+\item Be sure that your notebook is nicely presented. This means markdown explaining sections, nicely commented code, and figures where appropriate. You can use the course notebooks on moodle as inspiration
+\item Be careful if your .csv file contains items separated by semi-colons ``;" as opposed to commas -- in this case you should use the sep=";" argument with pd.read\_csv
+\item It's very possible there will be lots of new things in the dataset we haven't seen in the class yet (ie. multiple sheets, multiple headers, different formatting, etc.). This is expected. You need to go online and try to figure out what to do.
+\item In the presentation we will be testing your knowledge across the entire course. It's worth going through the papers from the seminar course (at least those relevant to your topic) and also review the notebooks from the hands-on course (including the exercises)
+\item Feel free to come by our office for help if you need any guidance or advice.
+\end{itemize}
 
 \end{document}
