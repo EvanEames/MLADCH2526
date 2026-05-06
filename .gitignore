@@ -2175,3 +2175,11 @@ week2/ML_Week2 copy.ipynb
 week6/wanyika-chronological-database-in-excel-format.xlsx
 Grades1.docx
 week13/rotated_mario.png
+week15/data/MNIST/raw/t10k-images-idx3-ubyte
+week15/data/MNIST/raw/t10k-images-idx3-ubyte.gz
+week15/data/MNIST/raw/t10k-labels-idx1-ubyte
+week15/data/MNIST/raw/t10k-labels-idx1-ubyte.gz
+week15/data/MNIST/raw/train-images-idx3-ubyte
+week15/data/MNIST/raw/train-images-idx3-ubyte.gz
+week15/data/MNIST/raw/train-labels-idx1-ubyte
+week15/data/MNIST/raw/train-labels-idx1-ubyte.gz
