@@ -2491,3 +2491,7 @@ week17/runs/detect/train/labels.jpg
 week17/ML_Week17_draft.ipynb
 week17/rtdetr-l.pt
 week17/yolo12m.pt
+week17/runs/detect/train-2/args.yaml
+week17/runs/detect/train-2/labels.jpg
+week17/runs/detect/train-3/args.yaml
+week17/runs/detect/train-3/labels.jpg
