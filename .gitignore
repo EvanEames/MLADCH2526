@@ -2549,3 +2549,6 @@ week17/runs/detect/train-5/val_batch0_labels.jpg
 week17/runs/detect/train-5/val_batch0_pred.jpg
 week17/runs/detect/train-5/weights/best.pt
 week17/runs/detect/train-5/weights/last.pt
+week18/sam3.pt
+week18/runs/segment/predict-2/Pikachu.jpg
+week18/checkpoints/sam_vit_b_01ec64.pth
