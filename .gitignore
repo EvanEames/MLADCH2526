@@ -2552,3 +2552,13 @@ week17/runs/detect/train-5/weights/last.pt
 week18/sam3.pt
 week18/runs/segment/predict-2/Pikachu.jpg
 week18/checkpoints/sam_vit_b_01ec64.pth
+week18/runs/segment/predict-10/pikachu.jpg
+week18/runs/segment/predict-3/Pikachu.jpg
+week18/runs/segment/predict-4/pikachu_and_pichu.jpg
+week18/runs/segment/predict-4/Pikachu.jpg
+week18/runs/segment/predict-5/pikachu.jpg
+week18/runs/segment/predict-6/pikachu_and_pichu.jpg
+week18/runs/segment/predict-6/pikachu.jpg
+week18/runs/segment/predict-7/pikachu.jpg
+week18/runs/segment/predict-8/pikachu.jpg
+week18/runs/segment/predict-9/pikachu.jpg
